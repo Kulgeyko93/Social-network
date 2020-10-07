@@ -1,0 +1,72 @@
+
+.container {
+   padding: 20px 10px 0 10px;
+   margin: 0 0 10px 10px;
+   width: 100%;
+   max-height: 120px;
+   border-top: 1px solid #f1f2f2;
+   border-bottom: 1px solid #f1f2f2;
+   display: flex;
+   flex-direction: row nowrap;
+   justify-content: space-between;
+   align-items: start;
+
+
+   .userContainer {
+      display:flex;
+      flex-direction: row wrap;
+      justify-content: flex-start;
+
+      .userImage {
+         margin-right: 10px;
+         img {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+         }
+      }
+   
+      .userInfo {
+
+         h5 {
+            margin-block-start: 1.67em;
+            margin-block-end: 1.67em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            font-weight: 500;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            a {
+               text-decoration: none;
+               color: #27aae1;
+               background-color: transparent;
+            }
+         }
+
+         p {
+            color: #6d6e71;
+            font-size: 12px;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+         }
+      }
+   }
+
+
+   .addFriend {
+      button {
+         background: #27aae1;
+         padding: 5px 20px;
+         border: none;
+         font-size: 14px;
+         border-radius: 4px;
+         color: #fff;
+         font-weight: 600;
+         outline: none;
+      }
+   }
+}

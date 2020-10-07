@@ -1,0 +1,48 @@
+#pageContents__rightSidebar {
+  width: 15%;
+
+  .divsuggestion {
+    width: 100%;
+
+    span {
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+    }
+
+    .addFriend {
+
+      li {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+
+        .friendAdd {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+
+          .fullNameFriend {
+            padding: 5px;
+            ;
+          }
+
+          .clickAdd {
+            padding: 5px;
+          }
+
+          a {}
+        }
+
+      }
+
+    }
+  }
+}

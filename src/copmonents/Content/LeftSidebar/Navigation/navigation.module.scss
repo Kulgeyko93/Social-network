@@ -1,0 +1,41 @@
+.navigation {
+   height: 282px;
+   font-size: 12px;
+   ul {
+      display: flex;
+      flex-flow: column nowrap;
+      justify-self: start;
+      padding: 0 20px 0 20px;
+      li {
+         padding: 15px 0 15px 0;
+         display: flex;
+         border-bottom: 1px solid grey;
+         &:hover {
+            background-color: rgba(70, 172, 213, 0.5);
+            border-radius: 15px;
+         }
+
+         .newsfeed,.people,
+         .friends, .messages,
+         .images, .videos {
+
+            flex-basis: 100%;
+            color: #898fa5;
+            span {
+               padding-left:  5px;
+            }
+         }
+
+         .newsfeed {color: #78b71b};
+         .people {color: #420986};
+         .friends {color: #f4c5db};
+         .messages {color: #f79418};
+         .images {color: #1a72ba};
+         .videos {color: #9e1f63};
+      }
+
+    
+
+     
+   }
+};

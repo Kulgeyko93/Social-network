@@ -1,0 +1,27 @@
+.pageContents__leftSidebar__profile__chat {
+   height: 257px;
+
+   .pageContents__leftSidebar__profile__chat_online {
+      background-color: greenyellow;
+      color: white;
+      margin: 0 35px 20px 35px;
+      padding: 5px 20px 5px 20px;
+      border-radius: 30px;
+      text-align: center;
+   }
+
+   .pageContents__leftSidebar__profile__chat_usersOnline {
+      padding: 0 30px 0 30px;
+
+      ul {
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: space-around;
+      }
+
+      li {
+         padding: 5px;
+
+      }
+   }
+}

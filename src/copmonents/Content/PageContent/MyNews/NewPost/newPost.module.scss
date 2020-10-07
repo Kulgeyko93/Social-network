@@ -1,0 +1,64 @@
+.pageContents__content__createPost {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   .formGroup {
+      width: 70%;
+      height: 100%;
+
+      img {
+         width: 50px;
+         height: 50px;
+         border-radius: 50%;
+         margin: 0 10px 0 0;
+      }
+
+      .formCreatePost {
+         width: 80%;
+         height: 50px;
+         padding: 3px;
+         border: 1px solid black;
+         border-radius: 5px;
+         resize: none;
+
+         &active {
+            // ================================
+            outline: 3px solid blue;
+         }
+      }
+   }
+
+   .pageContents__content__tools {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      align-items: center;
+
+      ul {
+         padding: 5px 0 5px 5;
+
+         li {
+            padding: 0 5px 0 5px;
+         }
+      }
+
+      button {
+         letter-spacing: normal;
+         background-color: blue;
+         color: white;
+         border-radius: 5px;
+         padding: 5px 20px 5px 20px;
+         font-size: 14px;
+      }
+
+      li {
+         list-style: none;
+         float: left;
+      }
+   }
+}

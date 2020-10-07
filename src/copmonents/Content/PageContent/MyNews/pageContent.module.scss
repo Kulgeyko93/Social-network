@@ -1,0 +1,19 @@
+#pageContents__content {
+  width: 60%;
+
+  .pageContents__content__container {
+    height: 90px;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    margin: 0 5px 0 5px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+
+
+  }
+
+
+}

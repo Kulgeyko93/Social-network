@@ -1,0 +1,17 @@
+a {
+   img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+   }
+   .online {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background-color: greenyellow;
+      margin: 0 auto;
+      transform: translate(0, -50%);
+   }
+
+
+}

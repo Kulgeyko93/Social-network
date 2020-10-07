@@ -1,0 +1,51 @@
+// <Шрифт>=============================================
+
+// <Переменные>========================================
+$mixWidth: 320;
+$maxWidth: 1920;
+$maxWidthContainer: 1050;
+$md1: $maxWidthContainer + 12;
+$md2: 991.98;
+$md3: 767.98;
+$md4: 479.98;
+
+//</Переменные>========================================
+
+//<обнуление, общие параметтры> ======================
+@import './null';
+//</обнуление, общие параметтры> ======================
+
+//<оболлочка> ========================================
+
+
+#wrapper {
+   max-width: $maxWidth + px;
+   min-height: 1000px;
+   display: flex;
+   flex-direction: row;
+   // HEADER
+
+
+   .pageContents {
+      background-color: #fff;
+      width: 100%;
+      order: 1;
+      margin-top: 50px;
+
+      .container{
+         width: $maxWidthContainer + px;
+         margin-top: 60px;
+         margin-left: ($maxWidth -$maxWidthContainer) / 2 + px;
+
+         display: flex;
+         flex-flow: row nowrap;
+         justify-content: start;
+      }
+   }
+
+   // SIDEBARLEFT
+
+}
+
+
+

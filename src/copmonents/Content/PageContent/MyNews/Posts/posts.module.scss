@@ -1,0 +1,117 @@
+.pageContents__content__post {
+   margin: 0 5px 0 5px;
+   padding: 10px;
+   display: flex;
+   flex-flow: row wrap;
+   // justify-content: end;
+
+   img {
+      width: 100%;
+      height: auto;
+
+   }
+
+   &__container {
+      width: 100%;
+      padding-top: 10px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+
+      img {
+         width: 50px;
+         height: 50px;
+         border-radius: 50%;
+      }
+
+      .userDetail {
+         width: 90%;
+         padding: 10px;
+
+         display: flex;
+         flex-flow: row nowrap;
+         justify-content: start;
+         align-items: center;
+
+         .userInfo {
+
+            width: 50%;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: end;
+
+            .leftSide {
+               display: flex;
+               flex-flow: row wrap;
+
+               .fullName {
+                  width: 50%;
+               }
+
+               .followUnfollow {
+                  width: 50%;
+               }
+            }
+
+            .publishInfo {
+               padding-top: 5px;
+               ;
+            }
+         }
+
+         .likeDislike {
+
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+
+            .like {
+               padding: 10px;
+            }
+
+            .dislike {
+               padding: 10px;
+            }
+         }
+      }
+   }
+
+   p {
+
+      padding: 0 20px 0 50px;
+      margin: 0 0 10px;
+      line-height: 24px;
+      text-align: justify;
+
+      span {
+         display: inline-block;
+         border-bottom: 1px solid grey;
+         border-top: 1px solid grey;
+      }
+   }
+
+   .postComment {
+      width: 100%;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+
+      .imageComent {
+         width: 10%;
+
+         img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+         }
+      }
+
+      .comment {
+         width: 90%;
+         height: 30px;
+         border: 1px solid #6d6e71;
+         border-radius: 5px;
+         padding: 10px;
+      }
+   }
+}

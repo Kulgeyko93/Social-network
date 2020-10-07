@@ -1,0 +1,33 @@
+.header__nav {
+   justify-self: end;
+   width: 433px;
+   height: 100%;
+   color: #fff;
+   font-size: 12px;
+
+   .main_menu {
+      width: 100%;
+      height: 100%;
+      list-style: none;
+      float: left;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+
+      .dropmenu {
+         width: 64px;
+         color: #fff;
+         display: flex;
+         justify-content: center;
+
+         a {
+            color: #fff;
+
+            &:hover {
+               color: #40a4c8;
+            }
+         }
+      }
+   }
+}

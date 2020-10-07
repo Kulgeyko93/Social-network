@@ -1,0 +1,32 @@
+.container {
+   
+   margin: 0 0 10px 0;
+   display: flex;
+   justify-content: center;
+   align-self: center;
+
+
+
+
+
+   .paginationList{
+      display: flex;
+      padding: 0 5px 0 5px;
+      li{
+         padding: 10px;
+         border-radius: 5px; 
+         text-decoration: none ;   
+         a {
+            font-size: 16px;
+         }
+         &.active {
+            background: #27aae1;
+            color: white;
+         }
+         &:hover:not(.active){
+            background-color: #b2e3f7
+         }
+      }
+
+   }
+}
